@@ -11,7 +11,7 @@ We’re publishing components of TAPx  as they evolve and mature. We’re still 
 
 ### TAPx MVP Project Structure
   1. **TAPx-core** is the base contract of branded online community tokens. Based on EOS standard token module, we developed Exchange and Ledger to make individual community economy possible. TAPx can be used to trade-in for branded token.
-  2. **Stake** converts the TAPx into the community’s branded token supply according to a exchange rate.
+  2. **Stake** converts the TAPx into the community’s branded token supply according to an exchange rate.
   3. **Ledger** allows users without wallets to transition from regular community account to blockchain account easily. And helps to avoid potential account creation cost.
   4. **Branded Token** carries community owners’ brandings. Community owner can claim branded token by staking TAPx token.
 
