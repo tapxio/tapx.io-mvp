@@ -1,5 +1,5 @@
 # tapx.io-mvp
-TAPx Project is a protocol, which will build a foundation to unit 1 million online communities.
+TAPx Project is a protocol, which will build a foundation to unite 1 million online communities.
 
 Our goal is to build a standard, public online community blockchain protocol.
 
