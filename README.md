@@ -24,5 +24,5 @@ The Goldpoint sample is running on EOS testnet:
   - Goldpoint smartcontrat: https://jungle.bloks.io/account/tapatalkgdp1    
 
 ### Resources
-  **Website:**    https://www.tapx.io    
-  **whitepaper**  https://www.tapx.io/WhitePaper_v2.0.pdf   
+  **Website:**     https://www.tapx.io    
+  **whitepaper:**  https://www.tapx.io/WhitePaper_v2.0.pdf   
