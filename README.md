@@ -19,10 +19,9 @@ We’re publishing components of TAPx  as they evolve and mature. We’re still 
 
 Goldpoint is the token that can be used among all Tapatalk communities. It can be used to purchase Tapatalk services or gifting to others. The supply is determined by staking/unstaking TAPx on the exchange. All Tapatalk users can use this token, regardless of whether they have blockchain wallet or not.
 
-The Goldpoint sample is running on EOS testnet:
-
-   TPAx smartcontract: https://jungle.bloks.io/account/tapatalktpx1
-   Goldpoint smartcontrat: https://jungle.bloks.io/account/tapatalkgdp1
+The Goldpoint sample is running on EOS testnet:    
+   TPAx smartcontract: https://jungle.bloks.io/account/tapatalktpx1   
+   Goldpoint smartcontrat: https://jungle.bloks.io/account/tapatalkgdp1    
 
 ### Resources
   **Website:**    https://www.tapx.io 
