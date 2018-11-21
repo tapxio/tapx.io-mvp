@@ -26,3 +26,4 @@ The Goldpoint sample is running on EOS testnet:
 ### Resources
   **Website:**     https://www.tapx.io    
   **whitepaper:**  https://www.tapx.io/WhitePaper_v2.0.pdf   
+  **brnaded token API:**  https://github.com/tapxio/tapx.io-mvp/wiki/Branded-Token-API-index
