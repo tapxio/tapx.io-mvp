@@ -1,0 +1,10 @@
+[{
+  // Required Fields
+  "name": string; identifies the asset the token represents
+  "description": string; short description of the asset the token represents
+  "imageSmall": URI pointing to image resource size 150 x 150 
+  "imageLarge": URI pointing to image resource size 1024 x 1024
+  "details": Key Value pairs to render in a detail view, could be things like {"strength": 5}
+  // Optional Fields
+  "authenticityImage": URI pointing to resource with mime type image representing certificate of authenticity
+}]
