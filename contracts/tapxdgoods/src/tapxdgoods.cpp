@@ -54,20 +54,13 @@ void tapxdgoods::issue(name to, name token_name, string metadata_type,
 }
 
 
-// void dgoods::pausexfer(bool pause) {
-
-// }
-
-
 void tapxdgoods::burnnft(name owner, vector<uint64_t> tokeninfo_ids) {
 	require_auth(owner);
 
 	for (vector<uint64_t>::const_iterator iter = tokeninfo_ids.cbegin(); iter != tokeninfo_ids.cend(); iter++)
 	{
-		// 先检查from 是否有 这个 nft ，然后转账
 		owner_index owner_account(_self,_self.value);
 		auto owner_nft = owner_account.find(*iter);
-		// check( false, *iter);
 		check( owner_nft != owner_account.end(), "nft didn't eixts"); 
 		check( owner_nft-> owner == owner, "owner doses not own token with specified ID");
 
@@ -86,10 +79,8 @@ void tapxdgoods::transfernft(name from, name to, vector<uint64_t> tokeninfo_ids,
 	check( memo.size() <= 256, "memo has more than 256 bytes" );
 
 	auto payer = has_auth( to ) ? to : from;
-	//触发vector 转账
 	for (vector<uint64_t>::const_iterator iter = tokeninfo_ids.cbegin(); iter != tokeninfo_ids.cend(); iter++)
 	{
-		// 先检查from 是否有 这个 nft ，然后转账
 		owner_index from_account(_self,_self.value);
 		auto send_nft = from_account.find(*iter);
 		// check( false, *iter);
